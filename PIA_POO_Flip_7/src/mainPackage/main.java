@@ -1,11 +1,29 @@
 package mainPackage;
 
+/**
+ * Instalacion y setup de javafx:
+ *  https://www.youtube.com/watch?v=ej5YrLYtLF0
+ */
+
+
+
+/**
+ * Manejo de javafx obtenido de:
+ *  https://youtu.be/9XJicRt_FaI?si=f1ay-y5za2t-O_wR
+ */
+
 import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
 import javafx.scene.Group;
+import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.image.Image;
+import javafx.scene.image.ImageView;
+import javafx.scene.input.KeyCombination;
 import javafx.scene.paint.Color;
+
 import javafx.stage.Stage;
+
 
 /**
  * 
@@ -37,20 +55,28 @@ public class main extends Application{
 
     @Override
     public void start(Stage stage) throws Exception {
-        Group root = new Group();
-        Scene scene = new Scene(root,Color.CADETBLUE);
+        Parent root = FXMLLoader.load(getClass().getResource("/MenuPrincipal.fxml"));
+
+        Scene scene = new Scene(root);
         
         /**
-        * 
+        * Asignamos el icono para nuestra aplicacion. Obtenido de la pagina oficial
+        * https://flip7-46611.web.app/
         */
         Image icon = new Image("icon.png");
-        
         stage.getIcons().add(icon);
         
         stage.setTitle("FLIP 7");
         
+        /**
+        * configuramos la escena para mostrarse en pantalla completa
+        */
+
+        
         stage.setScene(scene);
         stage.show();
+        
+        
     }
     
 }

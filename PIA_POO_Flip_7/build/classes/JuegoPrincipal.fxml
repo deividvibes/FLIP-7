@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720.0" prefWidth="1080.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainPackage.JuegoPrincipalController">
+   <children>
+      <Text layoutX="236.0" layoutY="517.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ALIAS" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="930.0" layoutY="40.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@reversoCarta.PNG" />
+         </image>
+      </ImageView>
+      <Button layoutX="934.0" layoutY="48.0" mnemonicParsing="false" opacity="0.0" prefHeight="134.0" prefWidth="98.0" text="TOMAR CARTA" />
+      <Text layoutX="70.0" layoutY="517.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TU MANO" />
+      <Text layoutX="62.0" layoutY="340.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MANO DE:" />
+      <Text layoutX="62.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MANO DE:" />
+      <Button layoutX="930.0" layoutY="650.0" mnemonicParsing="false" onAction="#pulsarBotonPuntuacionFinal" text="PUNTUACION FINAL" />
+   </children>
+</AnchorPane>
