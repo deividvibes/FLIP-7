@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ChoiceBox?>
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.ToggleButton?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.Color?>
+
+<AnchorPane fx:id="PlayerData" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="536.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainPackage.SeleccionarJugadoresController">
+   <children>
+      <AnchorPane fx:id="PlayerData1" disable="true" layoutX="26.0" layoutY="34.0" prefHeight="170.0" prefWidth="164.0">
+         <children>
+            <TextField fx:id="alias1" layoutX="8.0" layoutY="43.0" promptText="ej: DAVID">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></TextField>
+            <ColorPicker fx:id="color1" editable="true" layoutX="14.0" layoutY="87.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <value>
+                  <Color red="1.0" />
+               </value></ColorPicker>
+            <ToggleButton fx:id="Listo1" layoutX="57.0" layoutY="134.0" mnemonicParsing="false" onAction="#botonListo" selected="true" text="LISTO!">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></ToggleButton>
+            <Label fx:id="label1" alignment="CENTER" layoutX="1.0" layoutY="6.0" prefHeight="17.0" prefWidth="164.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="PlayerData2" disable="true" layoutX="219.0" layoutY="34.0" prefHeight="170.0" prefWidth="164.0">
+         <children>
+            <TextField fx:id="alias2" layoutX="8.0" layoutY="43.0" promptText="ej: MARIA">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></TextField>
+            <ColorPicker fx:id="color2" editable="true" layoutX="14.0" layoutY="87.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <value>
+                  <Color green="1.0" />
+               </value></ColorPicker>
+            <ToggleButton fx:id="Listo2" layoutX="57.0" layoutY="134.0" mnemonicParsing="false" onAction="#botonListo" selected="true" text="LISTO!">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></ToggleButton>
+            <Label fx:id="label2" alignment="CENTER" layoutX="4.0" layoutY="6.0" prefHeight="17.0" prefWidth="157.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="PlayerData3" disable="true" layoutX="412.0" layoutY="34.0" prefHeight="170.0" prefWidth="164.0">
+         <children>
+            <TextField fx:id="alias3" layoutX="8.0" layoutY="43.0" promptText="ej: LUIS">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></TextField>
+            <ColorPicker fx:id="color3" editable="true" layoutX="14.0" layoutY="87.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <value>
+                  <Color blue="1.0" />
+               </value></ColorPicker>
+            <ToggleButton fx:id="Listo3" layoutX="57.0" layoutY="134.0" mnemonicParsing="false" onAction="#botonListo" selected="true" text="LISTO!">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></ToggleButton>
+            <Label fx:id="label3" alignment="CENTER" layoutX="9.0" layoutY="6.0" prefHeight="17.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="PlayerData4" disable="true" layoutX="26.0" layoutY="257.0" prefHeight="170.0" prefWidth="164.0">
+         <children>
+            <TextField fx:id="alias4" layoutX="8.0" layoutY="43.0" promptText="ej: LUCAS">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></TextField>
+            <ColorPicker fx:id="color4" editable="true" layoutX="14.0" layoutY="87.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <value>
+                  <Color green="1.0" blue="1.0" />
+               </value></ColorPicker>
+            <ToggleButton fx:id="Listo4" layoutX="57.0" layoutY="134.0" mnemonicParsing="false" onAction="#botonListo" selected="true" text="LISTO!">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></ToggleButton>
+            <Label fx:id="label4" alignment="CENTER" layoutX="11.0" layoutY="6.0" prefHeight="17.0" prefWidth="146.0" />
+         </children>
+      </AnchorPane>
+      <AnchorPane fx:id="PlayerData6" disable="true" layoutX="412.0" layoutY="257.0" prefHeight="170.0" prefWidth="164.0">
+         <children>
+            <TextField fx:id="alias6" layoutX="8.0" layoutY="43.0" promptText="ej: DANIEL">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></TextField>
+            <ColorPicker fx:id="color6" editable="true" layoutX="14.0" layoutY="87.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <value>
+                  <Color red="1.0" blue="1.0" />
+               </value></ColorPicker>
+            <ToggleButton fx:id="Listo6" layoutX="57.0" layoutY="134.0" mnemonicParsing="false" onAction="#botonListo" selected="true" text="LISTO!">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></ToggleButton>
+            <Label fx:id="label6" alignment="CENTER" layoutX="10.0" layoutY="6.0" prefHeight="17.0" prefWidth="149.0" />
+         </children>
+      </AnchorPane>
+      <Button fx:id="BotonAJugar" disable="true" layoutX="268.0" layoutY="497.0" mnemonicParsing="false" onAction="#pulsarBotonAJugar" text="A JUGAR!">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <AnchorPane fx:id="PlayerData5" disable="true" layoutX="219.0" layoutY="257.0" prefHeight="170.0" prefWidth="164.0">
+         <children>
+            <TextField fx:id="alias5" layoutX="8.0" layoutY="43.0" promptText="ej: SERGIO">
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></TextField>
+            <ColorPicker fx:id="color5" editable="true" layoutX="14.0" layoutY="87.0">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
+               <value>
+                  <Color red="1.0" green="1.0" />
+               </value></ColorPicker>
+            <ToggleButton fx:id="Listo5" layoutX="57.0" layoutY="134.0" mnemonicParsing="false" onAction="#botonListo" selected="true" text="LISTO!">
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor></ToggleButton>
+            <Label fx:id="label5" alignment="CENTER" layoutX="11.0" layoutY="6.0" prefHeight="17.0" prefWidth="150.0" />
+         </children>
+      </AnchorPane>
+      <ChoiceBox fx:id="PlayerStatus1" layoutX="33.0" layoutY="204.0" prefWidth="150.0" value="Desactivado">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></ChoiceBox>
+      <ChoiceBox fx:id="PlayerStatus2" layoutX="227.0" layoutY="204.0" prefWidth="150.0" value="Desactivado">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></ChoiceBox>
+      <ChoiceBox fx:id="PlayerStatus3" layoutX="419.0" layoutY="204.0" prefWidth="150.0" value="Desactivado">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></ChoiceBox>
+      <ChoiceBox fx:id="PlayerStatus4" layoutX="33.0" layoutY="447.0" prefWidth="150.0" value="Desactivado">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></ChoiceBox>
+      <ChoiceBox fx:id="PlayerStatus5" layoutX="227.0" layoutY="447.0" prefWidth="150.0" value="Desactivado">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></ChoiceBox>
+      <ChoiceBox fx:id="PlayerStatus6" layoutX="419.0" layoutY="447.0" prefWidth="150.0" value="Desactivado">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></ChoiceBox>
+      <ImageView fitHeight="32.0" fitWidth="106.0" layoutX="275.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@icon.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
