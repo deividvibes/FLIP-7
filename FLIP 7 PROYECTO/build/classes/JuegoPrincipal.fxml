@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="1.7976931348623157E308" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1000.0" prefWidth="1400.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainPackage.JuegoPrincipalController">
+   <children>
+      <ImageView fitHeight="198.0" fitWidth="162.0" layoutX="1203.0" layoutY="284.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@reversoCarta.PNG" />
+         </image>
+         <effect>
+            <DropShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </ImageView>
+      <Button layoutX="1205.0" layoutY="557.0" mnemonicParsing="false" onAction="#pulsarBotonPuntuacionFinal" text="PUNTUACION FINAL">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <Label fx:id="manoAlias1" layoutX="40.0" layoutY="20.0" prefHeight="17.0" prefWidth="300.0" />
+      <Label fx:id="manoAlias2" layoutX="40.0" layoutY="180.0" prefWidth="300.0" />
+      <Label fx:id="manoAlias4" layoutX="39.0" layoutY="500.0" prefWidth="300.0" />
+      <Label fx:id="manoAlias3" layoutX="40.0" layoutY="340.0" prefHeight="17.0" prefWidth="300.0" text=" " />
+      <Label fx:id="manoAlias5" layoutX="40.0" layoutY="660.0" prefWidth="300.0" />
+      <Label fx:id="manoAlias6" layoutX="40.0" layoutY="820.0" prefWidth="300.0" />
+      <Label layoutX="1231.0" layoutY="156.0" text="TURNO DE:" />
+      <Button layoutX="1236.0" layoutY="240.0" mnemonicParsing="false" onAction="#botonRetirarse" text="Retirarse">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label fx:id="LabelTurno" layoutX="1255.0" layoutY="188.0" />
+      <ImageView fx:id="Hand11" fitHeight="128.55" fitWidth="92.55" layoutX="23.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="1204.0" layoutY="298.0" mnemonicParsing="false" onAction="#tomarCarta" opacity="0.0" prefHeight="184.0" prefWidth="132.0" text="TOMAR CARTA">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor></Button>
+      <ImageView fx:id="Hand12" fitHeight="128.55" fitWidth="92.55" layoutX="128.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand13" fitHeight="128.55" fitWidth="92.55" layoutX="233.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand14" fitHeight="128.55" fitWidth="92.55" layoutX="338.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand15" fitHeight="128.55" fitWidth="92.55" layoutX="443.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand16" fitHeight="128.55" fitWidth="92.55" layoutX="548.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand17" fitHeight="128.55" fitWidth="92.55" layoutX="653.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand18" fitHeight="128.55" fitWidth="92.55" layoutX="758.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand19" fitHeight="128.55" fitWidth="92.55" layoutX="863.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand110" fitHeight="128.55" fitWidth="92.55" layoutX="968.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand111" fitHeight="128.55" fitWidth="92.55" layoutX="1073.0" layoutY="43.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand21" fitHeight="128.55" fitWidth="92.55" layoutX="23.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand22" fitHeight="128.55" fitWidth="92.55" layoutX="128.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand23" fitHeight="128.55" fitWidth="92.55" layoutX="233.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand24" fitHeight="128.55" fitWidth="92.55" layoutX="338.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand25" fitHeight="128.55" fitWidth="92.55" layoutX="443.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand26" fitHeight="128.55" fitWidth="92.55" layoutX="548.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand27" fitHeight="128.55" fitWidth="92.55" layoutX="653.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand28" fitHeight="128.55" fitWidth="92.55" layoutX="758.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand29" fitHeight="128.55" fitWidth="92.55" layoutX="863.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand210" fitHeight="128.55" fitWidth="92.55" layoutX="968.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand211" fitHeight="128.55" fitWidth="92.55" layoutX="1073.0" layoutY="205.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand31" fitHeight="128.55" fitWidth="92.55" layoutX="23.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand32" fitHeight="128.55" fitWidth="92.55" layoutX="128.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand33" fitHeight="128.55" fitWidth="92.55" layoutX="233.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand34" fitHeight="128.55" fitWidth="92.55" layoutX="338.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand35" fitHeight="128.55" fitWidth="92.55" layoutX="443.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand36" fitHeight="128.55" fitWidth="92.55" layoutX="548.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand37" fitHeight="128.55" fitWidth="92.55" layoutX="653.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand38" fitHeight="128.55" fitWidth="92.55" layoutX="758.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand39" fitHeight="128.55" fitWidth="92.55" layoutX="863.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand310" fitHeight="128.55" fitWidth="92.55" layoutX="968.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand311" fitHeight="128.55" fitWidth="92.55" layoutX="1073.0" layoutY="362.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand41" fitHeight="128.55" fitWidth="92.55" layoutX="23.0" layoutY="525.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand42" fitHeight="128.55" fitWidth="92.55" layoutX="128.0" layoutY="525.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand43" fitHeight="128.55" fitWidth="92.55" layoutX="233.0" layoutY="525.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand44" fitHeight="128.55" fitWidth="92.55" layoutX="338.0" layoutY="525.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand45" fitHeight="128.55" fitWidth="92.55" layoutX="443.0" layoutY="525.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand46" fitHeight="128.55" fitWidth="92.55" layoutX="548.0" layoutY="525.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand47" fitHeight="128.55" fitWidth="92.55" layoutX="653.0" layoutY="525.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand48" fitHeight="128.55" fitWidth="92.55" layoutX="758.0" layoutY="525.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand49" fitHeight="128.55" fitWidth="92.55" layoutX="863.0" layoutY="525.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand410" fitHeight="128.55" fitWidth="92.55" layoutX="968.0" layoutY="525.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand411" fitHeight="128.55" fitWidth="92.55" layoutX="1073.0" layoutY="525.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand51" fitHeight="128.55" fitWidth="92.55" layoutX="23.0" layoutY="683.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand52" fitHeight="128.55" fitWidth="92.55" layoutX="128.0" layoutY="683.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand53" fitHeight="128.55" fitWidth="92.55" layoutX="233.0" layoutY="683.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand54" fitHeight="128.55" fitWidth="92.55" layoutX="338.0" layoutY="683.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand55" fitHeight="128.55" fitWidth="92.55" layoutX="443.0" layoutY="683.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand56" fitHeight="128.55" fitWidth="92.55" layoutX="548.0" layoutY="683.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand57" fitHeight="128.55" fitWidth="92.55" layoutX="653.0" layoutY="683.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand58" fitHeight="128.55" fitWidth="92.55" layoutX="758.0" layoutY="683.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand59" fitHeight="128.55" fitWidth="92.55" layoutX="863.0" layoutY="683.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand510" fitHeight="128.55" fitWidth="92.55" layoutX="968.0" layoutY="683.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand511" fitHeight="128.55" fitWidth="92.55" layoutX="1073.0" layoutY="683.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand61" fitHeight="128.55" fitWidth="92.55" layoutX="23.0" layoutY="845.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand62" fitHeight="128.55" fitWidth="92.55" layoutX="128.0" layoutY="845.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand63" fitHeight="128.55" fitWidth="92.55" layoutX="233.0" layoutY="845.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand64" fitHeight="128.55" fitWidth="92.55" layoutX="338.0" layoutY="845.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand65" fitHeight="128.55" fitWidth="92.55" layoutX="443.0" layoutY="845.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand66" fitHeight="128.55" fitWidth="92.55" layoutX="548.0" layoutY="845.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand67" fitHeight="128.55" fitWidth="92.55" layoutX="653.0" layoutY="845.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand68" fitHeight="128.55" fitWidth="92.55" layoutX="758.0" layoutY="845.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand69" fitHeight="128.55" fitWidth="92.55" layoutX="863.0" layoutY="845.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand610" fitHeight="128.55" fitWidth="92.55" layoutX="968.0" layoutY="845.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="Hand611" fitHeight="128.55" fitWidth="92.55" layoutX="1073.0" layoutY="845.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="botonFlip1" disable="true" layoutX="1093.0" layoutY="16.0" mnemonicParsing="false" text="Dar Carta" />
+      <Button fx:id="botonFlip2" disable="true" layoutX="1093.0" layoutY="176.0" mnemonicParsing="false" text="Dar Carta" />
+      <Button fx:id="botonFlip3" disable="true" layoutX="1093.0" layoutY="337.0" mnemonicParsing="false" text="Dar Carta" />
+      <Button fx:id="botonFlip4" disable="true" layoutX="1093.0" layoutY="497.0" mnemonicParsing="false" text="Dar Carta" />
+      <Button fx:id="botonFlip5" disable="true" layoutX="1093.0" layoutY="655.0" mnemonicParsing="false" text="Dar Carta" />
+      <Button fx:id="botonFlip6" disable="true" layoutX="1093.0" layoutY="815.0" mnemonicParsing="false" text="Dar Carta" />
+      <Label fx:id="puntos1" layoutX="353.0" layoutY="20.0" prefHeight="17.0" prefWidth="300.0" />
+      <Label fx:id="puntos2" layoutX="353.0" layoutY="180.0" prefWidth="300.0" />
+      <Label fx:id="puntos4" layoutX="352.0" layoutY="500.0" prefWidth="300.0" />
+      <Label fx:id="puntos3" layoutX="353.0" layoutY="340.0" prefHeight="17.0" prefWidth="300.0" />
+      <Label fx:id="puntos5" layoutX="353.0" layoutY="660.0" prefWidth="300.0" />
+      <Label fx:id="puntos6" layoutX="353.0" layoutY="820.0" prefWidth="300.0" />
+      <Rectangle fx:id="retiradoCuadro1" arcHeight="30.0" arcWidth="30.0" height="118.0" layoutX="31.0" layoutY="48.0" opacity="0.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" width="1127.0" />
+      <Rectangle fx:id="retiradoCuadro2" arcHeight="30.0" arcWidth="30.0" height="118.0" layoutX="41.0" layoutY="210.0" opacity="0.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" width="1127.0" />
+      <Rectangle fx:id="retiradoCuadro3" arcHeight="30.0" arcWidth="30.0" height="118.0" layoutX="30.0" layoutY="367.0" opacity="0.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" width="1127.0" />
+      <Rectangle fx:id="retiradoCuadro4" arcHeight="30.0" arcWidth="30.0" height="118.0" layoutX="31.0" layoutY="530.0" opacity="0.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" width="1127.0" />
+      <Rectangle fx:id="retiradoCuadro5" arcHeight="30.0" arcWidth="30.0" height="118.0" layoutX="41.0" layoutY="688.0" opacity="0.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" width="1127.0" />
+      <Rectangle fx:id="retiradoCuadro6" arcHeight="30.0" arcWidth="30.0" height="118.0" layoutX="41.0" layoutY="850.0" opacity="0.0" stroke="BLACK" strokeLineCap="ROUND" strokeLineJoin="ROUND" width="1127.0" />
+      <Label fx:id="Accion" layoutX="1216.0" layoutY="29.0" maxWidth="109.0" prefHeight="95.0" prefWidth="109.0" wrapText="true" />
+      <Label fx:id="restantes" layoutX="1257.0" layoutY="514.0" />
+   </children>
+</AnchorPane>

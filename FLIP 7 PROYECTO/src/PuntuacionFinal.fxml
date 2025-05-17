@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" fx:id="ScenePane" prefHeight="400.0" prefWidth="600.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="mainPackage.PuntuacionFinalController">
+    <stylesheets>
+        <URL value="@puntuacionfinal.css" />
+    </stylesheets>
+   <children>
+      <Button fx:id="pulsarBotonRegresar" layoutX="506.0" layoutY="341.0" mnemonicParsing="false" onAction="#pulsarBotonRegresar" text="Cerrar" />
+      <Text layoutX="245.0" layoutY="74.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PUNTUACION FINAL" />
+      <Label fx:id="puntuacion1" layoutX="272.0" layoutY="110.0" text="1. ---------" />
+      <Label fx:id="puntuacion2" layoutX="272.0" layoutY="137.0" text="2. ---------" />
+      <Label fx:id="puntuacion3" layoutX="272.0" layoutY="167.0" text="3. ---------" />
+      <Label fx:id="puntuacion4" layoutX="272.0" layoutY="200.0" text="4. ---------" />
+      <Label fx:id="puntuacion5" layoutX="272.0" layoutY="227.0" text="5. ---------" />
+      <Label fx:id="puntuacion6" layoutX="272.0" layoutY="257.0" text="6. ---------" />
+   </children>
+</AnchorPane>
